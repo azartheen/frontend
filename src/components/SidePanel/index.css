@@ -1,0 +1,28 @@
+/*
+
+2588A9
+
+969696
+
+*/
+
+.SidePanel-item{
+    background : #40b7e0;
+    height : 100%;
+    position : relative;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color : #0b5364;
+}
+
+.SidePanel-item-clickable{
+    cursor : pointer;
+}
+
+.SidePanel-item-clickable:hover{
+    filter : brightness(0.9);
+}
+
+.SidePanel-item-clickable:active{
+    filter : brightness(0.5);
+}
